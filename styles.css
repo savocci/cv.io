@@ -45,6 +45,7 @@
   .topnav a.icon {
     float: right;
     display: block;
+    height: 48px;
   }
 
   .topnav .icon .hamburger {
