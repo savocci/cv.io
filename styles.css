@@ -24,9 +24,8 @@ body {
 }
 
 .topnav a.active {
-  background-color: #fff;
-  color: #000;
-  border: none;
+  background-color: #000;
+  color: #fff;
 }
 
 .topnav .icon {
