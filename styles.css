@@ -49,6 +49,12 @@
     background-color: #000;
   }
 
+  .topnav.responsive a.icon {
+    position: absolute;
+    top: 0;
+    right: 0; /* Keep the icon in the top right corner */
+  }
+
   .topnav.responsive a {
     float: none;
     display: block;
