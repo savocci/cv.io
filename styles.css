@@ -26,12 +26,12 @@
 .icon {
   display: none;
   cursor: pointer;
-  padding: 5px; /* Adjust padding to control the size of the icon */
+  padding: 14px 16px; /* Set padding to match the topnav's padding */
 }
 
 .hamburger {
-  width: 20px; /* Adjust the width as needed */
-  height: 2px; /* Adjust the height as needed */
+  width: 20px;
+  height: 2px;
   background-color: #000;
   margin: 3px 0;
 }
@@ -52,14 +52,4 @@
 
   .topnav.responsive a.icon {
     position: absolute;
-    top: 0;
-    right: 0;
-  }
-
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-}
-
+    top
