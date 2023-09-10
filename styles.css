@@ -52,6 +52,7 @@
 
   .topnav.responsive {
     position: relative;
+    height: auto;
   }
 
   .topnav.responsive .icon {
