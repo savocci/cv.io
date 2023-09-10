@@ -27,4 +27,40 @@
   display: none;
   cursor: pointer;
   padding: 14px 16px;
-  width: 20px; /*
+  width: 20px; /* Adjust the width to match the topnav padding */
+  height: 20px; /* Adjust the height to match the topnav padding */
+}
+
+.hamburger {
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+  margin: 3px 0;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+
+  .icon .hamburger {
+    background-color: #000;
+  }
+
+  .topnav.responsive a.icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
