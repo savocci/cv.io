@@ -23,17 +23,16 @@
   color: #fff;
 }
 
-.icon {
+.topnav .icon {
+  float: right;
   display: none;
   cursor: pointer;
   padding: 14px 16px;
-  width: 20px; /* Adjust the width to match the topnav padding */
-  height: 20px; /* Adjust the height to match the topnav padding */
 }
 
-.hamburger {
-  width: 100%;
-  height: 2px;
+.topnav .icon .hamburger {
+  width: 20px; /* Adjust the width as needed */
+  height: 2px; /* Adjust the height as needed */
   background-color: #000;
   margin: 3px 0;
 }
