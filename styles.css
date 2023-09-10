@@ -40,10 +40,13 @@ body {
     display: block;
     color: #fff;
   }
+  .topnav {
+    background-color: #000;
+  }
 }
 
 @media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative; width: 100%;}
+  .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
