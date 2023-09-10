@@ -26,30 +26,5 @@
 .icon {
   display: none;
   cursor: pointer;
-  padding: 14px 16px; /* Set padding to match the topnav's padding */
-}
-
-.hamburger {
-  width: 20px;
-  height: 2px;
-  background-color: #000;
-  margin: 3px 0;
-}
-
-@media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {
-    display: none;
-  }
-
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-
-  .icon .hamburger {
-    background-color: #000;
-  }
-
-  .topnav.responsive a.icon {
-    position: absolute;
-    top
+  padding: 14px 16px;
+  width: 20px; /*
