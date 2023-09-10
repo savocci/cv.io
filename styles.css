@@ -38,6 +38,7 @@ body {
   .topnav a.icon {
     float: right;
     display: block;
+    color: #fff;
   }
 }
 
