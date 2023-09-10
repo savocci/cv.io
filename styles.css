@@ -37,6 +37,7 @@
     position: absolute;
     right: 0;
     top: 0;
+    color: #000;
   }
   .topnav.responsive a {
     float: none;
