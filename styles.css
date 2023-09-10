@@ -26,13 +26,14 @@
 .icon {
   display: none;
   cursor: pointer;
+  padding: 5px; /* Adjust padding to control the size of the icon */
 }
 
 .hamburger {
-  width: 25px;
-  height: 3px;
+  width: 20px; /* Adjust the width as needed */
+  height: 2px; /* Adjust the height as needed */
   background-color: #000;
-  margin: 4px 0;
+  margin: 3px 0;
 }
 
 @media screen and (max-width: 600px) {
@@ -52,7 +53,7 @@
   .topnav.responsive a.icon {
     position: absolute;
     top: 0;
-    right: 0; /* Keep the icon in the top right corner */
+    right: 0;
   }
 
   .topnav.responsive a {
@@ -61,3 +62,4 @@
     text-align: left;
   }
 }
+
