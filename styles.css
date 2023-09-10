@@ -1,6 +1,7 @@
 .topnav {
   background-color: #333;
   overflow: hidden;
+  height: auto;
 }
 
 .topnav a {
@@ -26,7 +27,7 @@
 .topnav .icon {
   float: right;
   display: none;
-  height: 48px;
+  height: auto;
 }
 
 .topnav .icon .hamburger {
