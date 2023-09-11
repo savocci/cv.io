@@ -48,6 +48,7 @@ body {
     position: absolute;
     right: 0;
     top: 0;
+    color: black;
   }
   .topnav.responsive a {
     float: none;
