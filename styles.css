@@ -29,9 +29,13 @@ body {
 }
 
 #profile-image {
-  width: 150px;
+  width: 300px;
   height: auto;
   border-radius: 50%;
+}
+
+.image-container {
+  text-align: center;
 }
 
 .topnav .icon {
