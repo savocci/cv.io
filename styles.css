@@ -33,7 +33,6 @@ body {
   height: auto;
   border-radius: 50%;
   margin-right: 20px;
-  margin-left: 70px;
 }
 
 .image-container {
@@ -42,6 +41,7 @@ body {
   justify-content: center;
   height: 50vh;
   padding-top: 30px;
+  margin-left: 70px;
 }
 
 h1 {
