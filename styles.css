@@ -29,10 +29,10 @@ body {
 }
 
 #profile-image {
-        width: 150px; /* Set the desired width */
-        height: 150px; /* Set the desired height */
-        border-radius: 50%; /* Make the image round */
-      }
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+}
 
 .topnav .icon {
   display: none;
