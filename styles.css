@@ -37,6 +37,7 @@ body {
 
 .image-container {
   display: flex;
+  align-items: center;
   height: 50vh;
   padding-top: 30px;
   margin-left: 70px;
