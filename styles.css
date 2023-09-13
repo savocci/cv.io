@@ -28,6 +28,12 @@ body {
   color: #000;
 }
 
+#profile-image {
+        width: 150px; /* Set the desired width */
+        height: 150px; /* Set the desired height */
+        border-radius: 50%; /* Make the image round */
+      }
+
 .topnav .icon {
   display: none;
   color: #fff;
