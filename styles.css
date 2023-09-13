@@ -43,12 +43,6 @@ body {
   padding-top: 30px;
 }
 
-.centered-content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 h1 {
   margin: 0;
   margin-left: 10px;
