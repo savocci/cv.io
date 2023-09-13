@@ -65,12 +65,12 @@ h1 {
     align-items: center;
     height: auto;
     padding-top: 20px;
+    margin-left: 0;
   }
   #profile-image {
     width: 300px;
     height: auto;
     margin-right: 0;
-    margin-left: 0;
     margin-bottom: 10px;
   }
 }
