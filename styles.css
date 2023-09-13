@@ -40,6 +40,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 50vh;
+  padding-top: 20px;
 }
 
 h1 {
@@ -66,6 +67,8 @@ h1 {
     padding-top: 20px;
   }
   #profile-image {
+    width: 300px;
+    height: auto;
     margin-right: 0;
     margin-bottom: 10px;
   }
