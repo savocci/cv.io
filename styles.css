@@ -32,6 +32,8 @@ body {
   width: 400px;
   height: auto;
   border-radius: 50%;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .image-container {
