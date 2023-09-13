@@ -42,6 +42,11 @@ body {
   height: 50vh;
 }
 
+h1 {
+  margin: 0;
+  margin-left: 10px;
+}
+
 .topnav .icon {
   display: none;
   color: #fff;
