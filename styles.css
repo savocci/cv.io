@@ -32,17 +32,21 @@ body {
   width: 400px;
   height: auto;
   border-radius: 50%;
-  margin-left: 20px;
   margin-right: 20px;
 }
 
 .image-container {
-  text-align: center;
   display: flex;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: flex-start;
   height: 50vh;
   padding-top: 30px;
+}
+
+.centered-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h1 {
