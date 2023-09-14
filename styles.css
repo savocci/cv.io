@@ -30,10 +30,15 @@ body {
 
 .profile-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.profile-center {
+  display: flex;
   align-items: center;
   text-align: center;
-  margin-top: 20px;
-  justify-content: center;
 }
 
 .profile-image {
@@ -41,17 +46,10 @@ body {
   width: 150px;
   height: auto;
   margin-right: 20px;
+  margin-left: -20px;
 }
 
-.left {
-  flex-grow: 1;
-  display: flex;
-  justify-content: flex-end;
-  padding-right: 20px;
-}
-
-.right {
-  flex-grow: 1;
+.profile-text {
   text-align: left;
 }
 
