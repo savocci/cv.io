@@ -30,11 +30,12 @@ body {
 
 .profile-container {
   text-align: center;
+  margin-top: 20px;
 }
 
 .profile-image {
   border-radius: 50%;
-  width: 150px;
+  width: 300px;
   height: auto;
   margin: 0 auto 20px;
 }
