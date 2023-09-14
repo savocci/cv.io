@@ -32,6 +32,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 10px;
   height: 60vh;
 }
 
@@ -63,6 +64,21 @@ p {
   margin: 0;
 }
 
+/* Media queries for adjusting margin as the screen size decreases */
+@media screen and (max-width: 1200px) {
+  .profile-image {
+    margin-right: 10px;
+    margin-left: -200px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .profile-image {
+    margin-right: 5px;
+    margin-left: -100px;
+  }
+}
+
 .topnav .icon {
   display: none;
   color: #fff;
@@ -76,11 +92,11 @@ p {
     color: #fff;
   }
   .profile-image {
-    width: 100px; /* Adjust the image size for smaller screens */
+    width: 100px;
     height: 100px;
   }
   h1 {
-    font-size: 20px; /* Adjust the font size for smaller screens */
+    font-size: 20px;
     margin: 8px 0;
   }
 }
