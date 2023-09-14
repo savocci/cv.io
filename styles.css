@@ -29,30 +29,31 @@ body {
 }
 
 .profile-container {
+  display: flex;
   align-items: center;
-  justify-content: center;
   text-align: center;
-  margin-top: 20px; 
+  margin-top: 20px;
 }
 
 .profile-image {
   border-radius: 50%;
-  width: 300px;
+  width: 150px;
   height: auto;
-  margin: 0 auto 20px;
+  margin-right: 20px;
 }
 
-.profile-info {
-  flex-grow: 1;
+.profile-text {
+  text-align: left;
 }
 
 h1 {
   font-size: 24px;
-  margin: 10px 0;
+  margin: 0;
 }
 
 p {
   font-size: 16px;
+  margin: 0;
 }
 
 .topnav .icon {
