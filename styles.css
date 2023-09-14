@@ -33,6 +33,7 @@ body {
   align-items: center;
   text-align: center;
   margin-top: 20px;
+  justify-content: center;
 }
 
 .profile-image {
