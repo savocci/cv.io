@@ -43,7 +43,15 @@ body {
   margin-right: 20px;
 }
 
-.profile-text {
+.left {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+
+.right {
+  flex-grow: 1;
   text-align: left;
 }
 
