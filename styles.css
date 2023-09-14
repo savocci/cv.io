@@ -31,9 +31,8 @@ body {
 .profile-container {
   display: flex;
   justify-content: center;
-  margin-top: 10px;
   align-items: center;
-  height: 100vh;
+  height: 80vh;
 }
 
 .profile-center {
