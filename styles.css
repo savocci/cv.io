@@ -68,14 +68,14 @@ p {
 /* Media queries for adjusting margin as the screen size decreases */
 @media screen and (max-width: 1200px) {
   .profile-image {
-    margin-right: 10px;
+    margin-right: 20px;
     margin-left: -200px;
   }
 }
 
 @media screen and (max-width: 900px) {
   .profile-image {
-    margin-right: 5px;
+    margin-right: 10px;
     margin-left: -100px;
   }
 }
