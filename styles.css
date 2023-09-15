@@ -93,10 +93,11 @@ p {
     color: #fff;
   }
   .profile-image {
-    width: 200px;
+    width: 300px;
     height: auto;
     margin-right: 0;
     margin-left: 0;
+    margin-bottom: 20px;
   }
   .profile-center {
     flex-direction: column;
@@ -109,6 +110,7 @@ p {
   h1 {
     font-size: 20px;
     margin: 8px 0;
+    margin-bottom: 10px;
   }
 }
 
