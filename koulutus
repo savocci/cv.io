@@ -1,14 +1,27 @@
 <!DOCTYPE html>
 <html>
-<body>
-
-<h2>An ordered HTML list</h2>
-
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type = "text/javascript" src="topnav.js"></script>
+  </head>
+  <body>
+    <div class="topnav" id="myTopnav">
+      <a href="#koti">Koti</a>
+      <a class="active" href="#koulutus">Koulutus</a>
+      <a href="#tyokokemus">Työkokemus</a>
+      <a href="#taidot">Taidot</a>
+      <a href="#yhteystiedot">Yhteystiedot</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+<h1>An ordered HTML list</h2>
 <ol>
   <li>Coffee</li>
   <li>Tea</li>
   <li>Milk</li>
 </ol>  
-
 </body>
 </html>
