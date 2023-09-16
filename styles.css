@@ -36,6 +36,14 @@ body {
   height: 60vh;
 }
 
+.list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  height: 67vh;
+}
+
 .profile-center {
   display: flex;
   align-items: center;
