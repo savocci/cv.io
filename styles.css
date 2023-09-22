@@ -127,8 +127,8 @@ p {
     padding-left: 20px;
   }
   ul li {
-    position: relative;
     padding-left: 25px;
+    text-indent: -10px;
   }
   ul li::marker {
     content: "\2022";
