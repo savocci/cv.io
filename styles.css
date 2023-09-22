@@ -73,6 +73,10 @@ p {
   margin: 0;
 }
 
+ul li {
+  margin: 10px 0;
+}
+
 /* Media queries for adjusting margin as the screen size decreases */
 @media screen and (max-width: 1200px) {
   .profile-image {
