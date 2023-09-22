@@ -168,6 +168,9 @@ h2 {
     top: 50%;
     transform: translateY(-50%);
   }
+  .experience-container {
+    text-align: left;
+  }
 }
 
 @media screen and (max-width: 700px) {
