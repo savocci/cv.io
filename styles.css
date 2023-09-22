@@ -89,6 +89,7 @@ ul li {
 
 .job {
     margin-bottom: 20px;
+    padding-top: 3px;
 }
 
 h2 {
@@ -99,6 +100,7 @@ h2 {
 .company {
     font-style: italic;
     color: #555;
+    padding-bottom: 10px;
 }
 
 .date {
