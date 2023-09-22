@@ -108,7 +108,7 @@ h2 {
 }
 
 .skills-ul {
-  padding-left: none;
+  padding-left: revert;
 }
 
 /* Media queries for adjusting margin as the screen size decreases */
