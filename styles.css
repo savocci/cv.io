@@ -92,6 +92,11 @@ ul li {
     padding-top: 3px;
 }
 
+.intro {
+  word-wrap: break-word;
+  max-width: 100%;
+}
+
 h2 {
     font-size: 24px;
     margin-bottom: 10px;
