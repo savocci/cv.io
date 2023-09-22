@@ -124,10 +124,8 @@ p {
     margin-bottom: 10px;
   }
   ul {
+    list-style-position: inside;
     padding-left: 20px;
-  }
-  ul li {
-    margin: 5px 0;
   }
 }
 
