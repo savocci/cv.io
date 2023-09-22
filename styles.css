@@ -78,6 +78,24 @@ ul li {
   margin: 10px 0;
 }
 
+.job {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.company {
+    font-style: italic;
+    color: #555;
+}
+
+.date {
+    color: #777;
+}
+
 /* Media queries for adjusting margin as the screen size decreases */
 @media screen and (max-width: 1200px) {
   .profile-image {
