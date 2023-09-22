@@ -130,7 +130,7 @@ p {
     position: relative;
     padding-left: 25px;
   }
-  ul li::before {
+  ul li::marker {
     content: "\2022";
     position: absolute;
     left: 0;
