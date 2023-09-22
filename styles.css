@@ -124,8 +124,18 @@ p {
     margin-bottom: 10px;
   }
   ul {
-    list-style-position: inside;
     padding-left: 20px;
+  }
+  ul li {
+    position: relative;
+    padding-left: 25px;
+  }
+  ul li::before {
+    content: "\2022";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
   }
 }
 
