@@ -97,6 +97,7 @@ ul li {
   max-width: 100%;
   width: 300px;
   height: 0;
+  text-align: left;
 }
 
 h2 {
@@ -191,9 +192,6 @@ h2 {
     text-align: left;
   }
   .job {
-    text-align: left;
-  }
-  .intro {
     text-align: left;
   }
 }
