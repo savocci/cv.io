@@ -171,6 +171,9 @@ h2 {
   .experience-container {
     text-align: left;
   }
+  .job {
+    text-align: left;
+  }
 }
 
 @media screen and (max-width: 700px) {
