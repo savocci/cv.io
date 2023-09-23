@@ -126,7 +126,7 @@ h2 {
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
   .profile-image {
     width: 170px;
     height: auto;
