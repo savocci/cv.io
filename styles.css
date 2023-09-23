@@ -193,6 +193,9 @@ h2 {
   .job {
     text-align: left;
   }
+  .intro {
+    width: 300px;
+  }
 }
 
 @media screen and (max-width: 700px) {
