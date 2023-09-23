@@ -150,6 +150,7 @@ h2 {
   }
   .profile-container {
     height: 70vh;
+    margin-bottom: 700px;
   }
   .profile-image {
     width: 300px;
