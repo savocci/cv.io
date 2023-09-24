@@ -2,12 +2,10 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
-
 .topnav {
   overflow: hidden;
   background-color: #000;
 }
-
 .topnav a {
   float: left;
   display: block;
@@ -17,17 +15,14 @@ body {
   text-decoration: none;
   font-size: 17px;
 }
-
 .topnav a:hover {
   background-color: #ddd;
   color: #000
 }
-
 .topnav a.active {
   background-color: #fff;
   color: #000;
 }
-
 .content-section {
   display: flex;
   justify-content: center;
@@ -36,87 +31,36 @@ body {
   margin-bottom: 400px;
   height: 60vh;
 }
-
-.list-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 10px;
-  height: 68.5vh;
-}
-
-.experience-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 10px;
-  height: 120vh;
-}
-
 .content-center {
   display: flex;
   align-items: center;
   text-align: center;
 }
-
 .profile-image {
   border-radius: 50%;
   width: 300px;
   height: auto;
   margin-right: 40px;
 }
-
 .content-text {
   text-align: left;
   margin-left: 20px;
 }
-
 h1 {
   font-size: 44px;
   margin: 0;
   margin-bottom: 10px;
   padding-bottom: 12px;
 }
-
 p {
   font-size: 16px;
 }
-
-ul li {
-  padding-left: 25px;
-  margin: 10px 0;
-}
-
-.job {
-    margin-bottom: 20px;
-    padding-top: 3px;
-}
-
 .intro {
   word-wrap: break-word;
   max-width: 100%;
   width: 400px;
   height: 0;
   text-align: left;
-}
-
-h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-.company {
-    font-style: italic;
-    color: #555;
-    padding-bottom: 10px;
-}
-
-.date {
-    color: #777;
-}
-
-.skills-ul {
-  padding-left: revert;
 }
 
 /* Media queries for adjusting margin as the screen size decreases */
@@ -135,7 +79,6 @@ h2 {
     margin-left: -100px;
   }
 }
-
 .topnav .icon {
   display: none;
   color: #fff;
@@ -171,29 +114,6 @@ h2 {
     font-size: 40px;
     margin: 8px 0;
     margin-bottom: 10px;
-  }
-  ul {
-    padding-left: 20px;
-  }
-  ul li {
-    text-align: left;
-    margin: 10px 0;
-  }
-  ul li::marker {
-    content: "\2022";
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-  .list-container {
-    text-align: left;
-  }
-  .experience-container {
-    text-align: left;
-  }
-  .job {
-    text-align: left;
   }
   .intro {
     width: 300px;
