@@ -110,10 +110,16 @@ p {
   .content-text {
     text-align: center;
   }
-  h1 {
-    font-size: 40px;
-    margin: 8px 0;
+  .page-heading {
+    text-align: center; /* Center the heading horizontally */
+    margin: 0; /* Reset margin to ensure consistency */
+    padding: 0; /* Reset padding to ensure consistency */
+  }
+  .page-heading h1 {
+    font-size: 44px;
+    margin: 0;
     margin-bottom: 10px;
+    padding-bottom: 12px;
   }
   .intro {
     width: 300px;
