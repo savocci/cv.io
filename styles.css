@@ -111,9 +111,11 @@ p {
     text-align: center;
   }
   .page-heading {
-    text-align: center; /* Center the heading horizontally */
-    margin: 0; /* Reset margin to ensure consistency */
-    padding: 0; /* Reset padding to ensure consistency */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100px;
+    overflow: auto;
   }
   .page-heading h1 {
     font-size: 44px;
