@@ -51,7 +51,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100px;
-  /*overflow: auto;*/
+  width: 500px;
 }
 .page-heading h1 {
   font-size: 44px;
@@ -64,6 +64,7 @@ ul {
 }
 p {
   font-size: 16px;
+  text-align: left;
 }
 
 /* Media queries for adjusting margin as the screen size decreases */
@@ -116,7 +117,7 @@ p {
   .content-text {
     text-align: center;
   }
-  .intro {
+  .page-heading {
     width: 300px;
   }
 }
