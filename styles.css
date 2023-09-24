@@ -28,7 +28,7 @@ body {
   color: #000;
 }
 
-.profile-container {
+.content-section {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -53,7 +53,7 @@ body {
   height: 120vh;
 }
 
-.profile-center {
+.content-center {
   display: flex;
   align-items: center;
   text-align: center;
@@ -148,7 +148,7 @@ h2 {
     display: block;
     color: #fff;
   }
-  .profile-container {
+  .content-section {
     height: 70vh;
     margin-bottom: 700px;
   }
@@ -159,7 +159,7 @@ h2 {
     margin-left: 0;
     margin-bottom: 20px;
   }
-  .profile-center {
+  .content-center {
     flex-direction: column;
     align-items: center;
     text-align: center;
