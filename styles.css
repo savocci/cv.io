@@ -101,6 +101,9 @@ p {
     display: block;
     color: #fff;
   }
+  .active {
+    order: -1;
+  }
   .content-section {
     height: 70vh;
     margin-bottom: 700px;
