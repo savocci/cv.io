@@ -82,11 +82,14 @@ p {
     margin-right: 10px;
     margin-left: -100px;
   }
+  .page-heading {
+    width: 300px;
+  }
 }
-.topnav .icon {
+/*.topnav .icon {
   display: none;
   color: #fff;
-}
+}*/
 
 @media screen and (max-width: 700px) {
   .topnav a:not(.active) {display: none;}
