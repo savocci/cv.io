@@ -68,6 +68,7 @@ p {
 }
 .job {
   margin-bottom: 24px;
+  line-height: 0.2;
 }
 
 /* Media queries for adjusting margin as the screen size decreases */
