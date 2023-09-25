@@ -89,6 +89,8 @@ h2 {
 }
 form {
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* Media queries for adjusting margin as the screen size decreases */
