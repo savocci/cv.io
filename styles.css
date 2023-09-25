@@ -99,6 +99,9 @@ label {
 input {
   margin-bottom: 5px;
 }
+button {
+  margin-top: 5px;
+}
 
 /* Media queries for adjusting margin as the screen size decreases */
 @media screen and (max-width: 1200px) {
