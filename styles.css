@@ -87,6 +87,9 @@ h2 {
   text-align: left;
   font-size: 17px;
 }
+form {
+  display: flex;
+}
 
 /* Media queries for adjusting margin as the screen size decreases */
 @media screen and (max-width: 1200px) {
