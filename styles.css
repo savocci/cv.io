@@ -61,13 +61,14 @@ body {
 }
 ul {
   text-align: left;
+  line-height: 1.2;
 }
 p {
   font-size: 16px;
   text-align: left;
 }
 .job {
-  margin-bottom: 24px;
+  margin-bottom: 44px;
   line-height: 0.2;
 }
 
