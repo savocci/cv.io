@@ -71,6 +71,9 @@ p {
   margin-bottom: 44px;
   line-height: 0.2;
 }
+.strong {
+  font-weight: bold;
+}
 
 /* Media queries for adjusting margin as the screen size decreases */
 @media screen and (max-width: 1200px) {
