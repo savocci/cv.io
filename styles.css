@@ -93,6 +93,12 @@ form {
   align-items: left;
   text-align: left;
 }
+label {
+  margin-bottom: 5px;
+}
+input {
+  margin-bottom: 5px;
+}
 
 /* Media queries for adjusting margin as the screen size decreases */
 @media screen and (max-width: 1200px) {
