@@ -79,8 +79,9 @@ p {
   margin-bottom: 44px;
   line-height: 0.2;
 }
-.strong {
-  font-weight: bold;
+.h2 {
+  text-align: left;
+  font-size: 17px;
 }
 
 /* Media queries for adjusting margin as the screen size decreases */
