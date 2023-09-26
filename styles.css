@@ -97,6 +97,7 @@ label {
   margin-bottom: 5px;
 }
 input {
+  height: 35px;
   margin-bottom: 5px;
 }
 textarea {
