@@ -115,6 +115,9 @@ button {
   cursor: pointer;
   font-size: 16px;
 }
+.linkedin {
+  margin-top: 60px;
+}
 .linkedin-button {
   width: 90px;
   height: auto;
