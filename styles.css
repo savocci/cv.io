@@ -99,8 +99,8 @@ label {
 input {
   margin-bottom: 5px;
 }
-button {
-  margin-top: 5px;
+textarea {
+  margin-bottom: 5px;
 }
 
 /* Media queries for adjusting margin as the screen size decreases */
