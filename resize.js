@@ -1,6 +1,5 @@
-var contentSection = document.getElementsByClassName("content-section")[0];
-
 var updateMarginBottom = function () {
+  var contentSection = document.getElementsByClassName("content-section")[0];
   var contentHeight = contentSection.clientHeight;
   var windowHeight = window.innerHeight;
   var footerHeight = 60;
