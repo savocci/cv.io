@@ -1,4 +1,4 @@
-var contentSection = document.getElementsByClass("content-section")[0];
+var contentSection = document.getElementsByClassName("content-section")[0];
 
 var updateMarginBottom = function () {
   var contentHeight = contentSection.clientHeight;
