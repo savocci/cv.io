@@ -26,10 +26,13 @@ body {
 .content-section {
   flex-grow: 1;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
   margin-top: 30px;
   margin-bottom: 20px;
+  min-height: calc(100vh - 80px);
+  padding-bottom: 20px;
 }
 .content-center {
   display: flex;
