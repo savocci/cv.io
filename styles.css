@@ -122,6 +122,8 @@ button {
 }
 .linkedin {
   margin-top: 20px;
+  text-align: center;
+  padding-bottom: 50px;
 }
 footer {
   position: fixed;
@@ -169,7 +171,7 @@ footer {
   .content-section {
     margin-top: 30px;
     margin-bottom: 20px;
-    padding-bottom: 20px;
+    padding: 20px;
   }
   .profile-image {
     width: 300px;
