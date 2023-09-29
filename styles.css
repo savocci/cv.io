@@ -60,11 +60,6 @@ html, body {
   width: 100%;
   justify-content: center;
 }
-.article-center {
-  display: flex;
-  align-items: center;
-  text-align: center;
-}
 .profile-image {
   border-radius: 50%;
   width: 300px;
@@ -73,6 +68,10 @@ html, body {
   margin-left: 200px;
 }
 .content-text {
+  text-align: left;
+  margin-left: 20px;
+}
+.article-text {
   text-align: left;
   margin-left: 20px;
 }
@@ -172,9 +171,9 @@ footer {
   .form-text {
     width: 50%;
   }
-  .article-center {
-    padding: 20px;
-  }
+ .article-text {
+   width: 70%;
+ }
 }
 
 @media screen and (max-width: 1000px) {
@@ -194,8 +193,8 @@ footer {
   .form-text {
     width: 50%;
   }
-  .article-center {
-    padding: 20px;
+  .article-text {
+    width: 70%;
   }
 }
 .topnav .icon {
