@@ -58,6 +58,7 @@ html, body {
   align-items: center;
   text-align: center;
   width: 100%;
+  justify-content: center;
 }
 .profile-image {
   border-radius: 50%;
@@ -69,6 +70,11 @@ html, body {
 .content-text {
   text-align: left;
   margin-left: 20px;
+}
+.form-text {
+  text-align: left;
+  margin-left: 20px;
+  width: 70%;
 }
 .page-heading h1 {
   text-align: center;
