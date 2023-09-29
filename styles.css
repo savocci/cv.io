@@ -127,6 +127,10 @@ footer {
   height: 40px;
   background-color: black;
 }
+.container {
+  text-align: center;
+  align-items: center;
+}
 
 /* Media queries for adjusting margin as the screen size decreases */
 @media screen and (max-width: 1200px) {
