@@ -60,6 +60,11 @@ html, body {
   width: 100%;
   justify-content: center;
 }
+.article-center {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
 .profile-image {
   border-radius: 50%;
   width: 300px;
@@ -167,8 +172,8 @@ footer {
   .form-text {
     width: 50%;
   }
-  li {
-    font-size: 16px;
+  .article-center {
+    padding: 20px;
   }
 }
 
@@ -189,8 +194,8 @@ footer {
   .form-text {
     width: 50%;
   }
-  li {
-    font-size: 16px;
+  .article-center {
+    padding: 20px;
   }
 }
 .topnav .icon {
