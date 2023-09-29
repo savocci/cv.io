@@ -60,6 +60,12 @@ html, body {
   width: 100%;
   justify-content: center;
 }
+.article-center {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
 .profile-image {
   border-radius: 50%;
   width: 300px;
