@@ -120,6 +120,7 @@ p {
 h2 {
   text-align: left;
   font-size: 17px;
+  padding-bottom: 5px;
 }
 form {
   display: flex;
