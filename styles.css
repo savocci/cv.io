@@ -46,6 +46,7 @@ html, body {
   width: 300px;
   height: auto;
   margin-right: 40px;
+  margin-left: 200px;
 }
 .content-text {
   text-align: left;
@@ -130,6 +131,7 @@ footer {
 .container {
   text-align: center;
   align-items: center;
+  width: 70%;
 }
 
 /* Media queries for adjusting margin as the screen size decreases */
@@ -137,6 +139,9 @@ footer {
   .profile-image {
     margin-right: 20px;
     margin-left: -200px;
+  }
+  .container {
+    width: 100%;
   }
 }
 
@@ -148,6 +153,9 @@ footer {
     margin-left: -100px;
   }
   .page-heading {
+    width: 100%;
+  }
+  .container {
     width: 100%;
   }
 }
@@ -188,6 +196,9 @@ footer {
     text-align: center;
   }
   .page-heading {
+    width: 100%;
+  }
+  .container {
     width: 100%;
   }
 }
