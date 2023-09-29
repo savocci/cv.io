@@ -56,7 +56,7 @@ html, body {
   margin: 0;
   padding: 0;
   height: 100px;
-  width: 500px;
+  width: 100%;
 }
 .page-heading h1 {
   text-align: center;
@@ -151,7 +151,7 @@ footer {
     margin-left: -100px;
   }
   .page-heading {
-    width: 300px;
+    width: 100%;
   }
 }
 .topnav .icon {
@@ -191,7 +191,7 @@ footer {
     text-align: center;
   }
   .page-heading {
-    width: 300px;
+    width: 100%;
   }
 }
 
