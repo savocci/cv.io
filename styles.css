@@ -26,22 +26,22 @@ html, body {
   color: #000;
 }
 .content-section {
- flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  /*flex-grow: 1;*/
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  /*justify-content: space-between;*/
+  /*align-items: center;*/
   margin-top: 30px;
   margin-bottom: 0;
   padding-bottom: 20px;
   height: 100%;
 }
 .form-section {
- flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  /*flex-grow: 1;*/
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  /*justify-content: space-between;*/
+  /*align-items: center;*/
   margin-top: 30px;
   margin-bottom: 0;
   padding-bottom: 20px;
@@ -49,23 +49,23 @@ html, body {
   width: 100%;
 }
 .content-center {
-  display: flex;
-  align-items: center;
+  /*display: flex;*/
+  /*align-items: center;*/
   text-align: center;
 }
 .form-center {
-  display: flex;
-  align-items: center;
+  /*display: flex;*/
+  /*align-items: center;*/
   text-align: center;
   width: 100%;
-  justify-content: center;
+  /*justify-content: center;*/
   padding-bottom: 100px;
 }
 .article-center {
-  display: flex;
-  align-items: center;
+  /*display: flex;*/
+  /*align-items: center;*/
   text-align: center;
-  justify-content: center;
+  /*justify-content: center;*/
   padding-bottom: 100px;
 }
 .profile-image {
@@ -129,9 +129,9 @@ h2 {
   padding-bottom: 5px;
 }
 form {
-  display: flex;
-  flex-direction: column;
-  align-items: left;
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  /*align-items: left;*/
   text-align: left;
 }
 label {
@@ -171,7 +171,7 @@ footer {
 }
 .container {
   text-align: center;
-  align-items: center;
+  /*align-items: center;*/
   width: 70%;
 }
 
@@ -246,8 +246,8 @@ footer {
     margin-top: inherit;
   }
   .content-center {
-    flex-direction: column;
-    align-items: center;
+    /*flex-direction: column;*/
+    /*align-items: center;*/
     text-align: center;
     padding-bottom: 70px;
   }
