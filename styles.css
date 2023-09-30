@@ -205,6 +205,9 @@ footer {
   .article-text {
     width: 70%;
   }
+  li, p {
+    font-size: 13px;
+  }
 }
 .topnav .icon {
   display: none;
