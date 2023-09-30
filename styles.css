@@ -70,7 +70,8 @@ html, body {
 }
 .profile-image {
   border-radius: 50%;
-  width: 300px;
+  max-width: 300px;
+  width: 100%;
   height: auto;
   margin-right: 40px;
   margin-left: 200px;
@@ -177,11 +178,11 @@ footer {
 
 /* Media queries for adjusting margin as the screen size decreases */
 @media screen and (max-width: 1200px) {
-  .profile-image {
+  /*.profile-image {
     margin-right: 20px;
     margin-left: 150px;
     margin-top: -100px;
-  }
+  }*/
   .form-text {
     width: 50%;
   }
@@ -194,13 +195,13 @@ footer {
 }
 
 @media screen and (max-width: 1000px) {
-  .profile-image {
+  /*.profile-image {
     width: 170px;
     height: auto;
     margin-right: 10px;
     margin-left: 100px;
     margin-top: -300px;
-  }
+  }*/
   .page-heading {
     width: 100%;
   }
