@@ -83,6 +83,10 @@ html, body {
   text-align: left;
   margin-left: 20px;
 }
+.article-text-special {
+  text-align: left;
+  margin-left: 20px;
+}
 .form-text {
   text-align: left;
   margin-left: 20px;
@@ -183,6 +187,9 @@ footer {
  .article-text {
    width: 70%;
  }
+ .article-text-special {
+   width: 60%;
+ }
 }
 
 @media screen and (max-width: 1000px) {
@@ -205,8 +212,8 @@ footer {
   .article-text {
     width: 70%;
   }
-  li, p {
-    font-size: 13px;
+  .article-text-special {
+    width: 60%;
   }
 }
 .topnav .icon {
@@ -256,6 +263,9 @@ footer {
     width: 70%;
   }
   .article-text {
+    width: 90%;
+  }
+  .article-text-special {
     width: 90%;
   }
 }
