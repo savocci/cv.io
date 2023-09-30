@@ -271,7 +271,7 @@ footer {
   }
 }
 
-@media screen and (orientation:landscape) {
+@media screen and (min-device-width: 428px) and (max-device-width: 926px) and (orientation:landscape) {
   .profile-image {
     margin-top: -400px;
   }
