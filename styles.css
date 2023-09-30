@@ -273,7 +273,8 @@ footer {
 
 @media screen and (max-width: 700px) and (orientation:landscape) {
   .profile-image {
-    margin-top: inherit;
+    width: 350px;
+    height: auto;
   }
 }
 
