@@ -273,9 +273,7 @@ footer {
 
 @media screen and (orientation:landscape) {
   .profile-image {
-    width: 400px;
-    height: auto;
-    margin-top: -200px;
+    margin-top: -400px;
   }
 }
 
