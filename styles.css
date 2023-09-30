@@ -1,17 +1,13 @@
-/* General Styles */
-body, html {
+html, body {
   font-family: Arial, Helvetica, sans-serif;
   height: 100%;
   margin: 0;
   padding: 0;
 }
-
-/* Navigation Styles */
 .topnav {
   background-color: #000;
   overflow: hidden;
 }
-
 .topnav a {
   color: #fff;
   display: block;
@@ -21,24 +17,42 @@ body, html {
   text-align: center;
   text-decoration: none;
 }
-
+.topnav a:hover {
+  background-color: #ddd;
+  color: #000
+}
 .topnav a.active {
   background-color: #fff;
   color: #000;
 }
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: #000;
+.content-section {
+  align-items: center;
+  flex-direction: column;
+  flex-grow: 1;
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  margin-bottom: 0;
+  margin-top: 30px;
+  padding-bottom: 20px;
 }
-
-.topnav .icon {
-  display: none;
+.form-section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  height: 100%;
+  justify-content: space-between;
+  margin-bottom: 0;
+  margin-top: 30px;
+  padding-bottom: 20px;
+  width: 100%;
 }
-
-/* Content and Form Styles */
-.article-center,
-.content-center,
+.content-center {
+  align-items: center;
+  display: flex;
+  text-align: center;
+}
 .form-center {
   align-items: center;
   display: flex;
@@ -47,25 +61,37 @@ body, html {
   text-align: center;
   width: 100%;
 }
-
-.content-section,
-.form-section {
+.article-center {
   align-items: center;
   display: flex;
-  flex-direction: column;
-  height: 100%;
-  justify-content: space-between;
-  margin-bottom: 0;
-  margin-top: 30px;
-  padding-bottom: 20px;
+  justify-content: center;
+  padding-bottom: 100px;
+  text-align: center;
 }
-
+.profile-image {
+  border-radius: 50% 50%;
+  height: auto;
+  margin-right: 40px;
+  margin-left: 200px;
+  width: 300px;
+}
+.content-text {
+  margin-left: 20px;
+  text-align: left;
+}
+.article-text {
+  margin-left: 20px;
+  text-align: left;
+}
+.article-text-special {
+  margin-left: 20px;
+  text-align: left;
+}
 .form-text {
   margin-left: 20px;
   text-align: left;
   width: 30%;
 }
-
 .page-heading h1 {
   font-size: 44px;
   margin: 0;
@@ -73,53 +99,52 @@ body, html {
   padding-bottom: 12px;
   text-align: center;
 }
-
-.profile-image {
-  border-radius: 50% 50%;
-  height: auto;
-  margin-left: 200px;
-  margin-right: 40px;
-  width: 300px;
-}
-
-/* Additional Styles */
-.article-text,
-.article-text-special,
-.content-text,
-h2,
-p,
 ul {
   line-height: 1.2;
-  margin-left: 20px;
   text-align: left;
 }
-
-.contact-info,
-.job,
-.school,
+p {
+  font-size: 16px;
+  text-align: left;
+}
+.job {
+  line-height: 0.2;
+  margin-bottom: 44px;
+}
 .skill {
   line-height: 0.2;
   margin-bottom: 44px;
 }
-
-/* Footer Styles */
-footer {
-  background-color: black;
-  bottom: 0;
-  height: 40px;
-  left: 0;
-  position: fixed;
-  width: 100%;
+.school {
+  line-height: 0.2;
+  margin-bottom: 44px;
 }
-
-/* Container Styles */
-.container {
-  align-items: center;
-  text-align: center;
-  width: 70%;
+.contact-info {
+  line-height: 0.2;
+  margin-bottom: 44px;
 }
-
-/* Form Styles */
+h2 {
+  font-size: 17px;
+  text-align: left;
+  padding-bottom: 5px;
+}
+form {
+  /*align-items: left;*/
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+label {
+  margin-bottom: 5px;
+}
+input {
+  height: 35px;
+  margin-bottom: 5px;
+}
+textarea {
+  margin-bottom: 5px;
+  resize: none none;
+}
 button {
   background-color: #000000;
   border: none;
@@ -131,81 +156,89 @@ button {
   padding: 14px 20px;
   width: 100%;
 }
-
-form {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-}
-
-input {
-  height: 35px;
-  margin-bottom: 5px;
-}
-
-label {
-  margin-bottom: 5px;
-}
-
-textarea {
-  margin-bottom: 5px;
-  resize: none none;
-}
-
-/* LinkedIn Styles */
 .linkedin {
   margin-top: 60px;
   padding-bottom: 50px;
   text-align: center;
 }
-
-/* Media Queries */
-@media screen and (max-width: 1000px) {
-  .container {
-    width: 70%;
-  }
-
-  .form-text {
-    width: 50%;
-  }
-
-  .page-heading {
-    width: 100%;
-  }
-
-  .article-text,
-  .article-text-special {
-    width: 70%;
-  }
+footer {
+  background-color: black;
+  bottom: 0;
+  height: 40px;
+  left: 0;
+  position: fixed;
+  width: 100%;
+}
+.container {
+  align-items: center;
+  text-align: center;
+  width: 70%;
 }
 
+/* Media queries for adjusting margin as the screen size decreases */
 @media screen and (max-width: 1200px) {
   .profile-image {
     margin-left: 150px;
     margin-right: 20px;
     margin-top: -100px;
   }
-
   .form-text {
     width: 50%;
   }
+ .article-text {
+   width: 70%;
+ }
+ .article-text-special {
+   width: 60%;
+ }
+}
 
-  .article-text-special {
-    width: 60%;
+@media screen and (max-width: 1000px) {
+  .profile-image {
+    height: auto;
+    margin-left: 100px;
+    margin-right: 10px;
+    margin-top: -300px;
+    width: 170px;
   }
-
+  .page-heading {
+    width: 100%;
+  }
+  .container {
+    width: 70%;
+  }
+  .form-text {
+    width: 50%;
+  }
   .article-text {
     width: 70%;
   }
+  .article-text-special {
+    width: 60%;
+  }
+}
+.topnav .icon {
+  color: #fff;
+  display: none;
 }
 
 @media screen and (max-width: 700px) {
+  .topnav a:not(.active) {
+    display: none;
+  }
+  .topnav a.icon {
+    color: #fff;
+    display: block;
+    float: right;
+  }
+  .active {
+    order: -1;
+  }
   .content-section {
     margin-bottom: 20px;
     margin-top: 30px;
     padding: 20px;
   }
-
   .profile-image {
     height: auto;
     margin-bottom: 20px;
@@ -214,51 +247,45 @@ textarea {
     margin-top: inherit;
     width: 300px;
   }
-
   .content-center {
     align-items: center;
     flex-direction: column;
     padding-bottom: 70px;
     text-align: center;
   }
-
   .content-text {
     text-align: center;
   }
-
+  .page-heading {
+    width: 100%;
+  }
   .container {
     width: 100%;
   }
-
   .form-text {
     width: 70%;
   }
-
-  .article-text,
+  .article-text {
+    width: 90%;
+  }
   .article-text-special {
     width: 90%;
   }
 }
 
 @media screen and (max-width: 700px) {
-  .topnav a:not(.active) {
-    display: none;
-  }
-
-  .topnav a.icon {
-    color: #fff;
-    display: block;
-    float: right;
-  }
-
   .topnav.responsive {
     position: relative;
   }
-
   .topnav.responsive.icon {
     color: black;
     position: absolute;
     right: 0;
     top: 0;
+  }
+  .topnav.responsive a {
+    display: block;
+    float: none;
+    text-align: left;
   }
 }
