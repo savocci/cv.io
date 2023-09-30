@@ -271,12 +271,6 @@ footer {
   }
 }
 
-@media screen and (min-device-width: 428px) and (max-device-width: 926px) and (orientation:landscape) {
-  .profile-image {
-    margin-top: -400px;
-  }
-}
-
 @media screen and (max-width: 700px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
