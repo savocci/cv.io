@@ -275,6 +275,7 @@ footer {
   .profile-image {
     width: 350px;
     height: auto;
+    margin-top: 150px;
   }
 }
 
