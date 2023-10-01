@@ -8,16 +8,7 @@ html, body {
   background-color: #000;
   overflow: hidden;
 }
-/*.topnav a {
-  color: #fff;
-  display: block;
-  float: left;
-  font-size: 17px;
-  padding: 14px 16px;
-  text-align: center;
-  text-decoration: none;
-}*/
-.navlink {
+.topnav a {
   color: #fff;
   display: block;
   float: left;
@@ -26,19 +17,11 @@ html, body {
   text-align: center;
   text-decoration: none;
 }
-/*.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}*/
-.navlink:hover {
+.topnav a:hover {
   background-color: #ddd;
   color: black;
 }
-/*.topnav a.active {
-  background-color: #fff;
-  color: #000;
-}*/
-.navlink-active {
+.topnav a.active {
   background-color: #fff;
   color: #000;
 }
@@ -244,42 +227,31 @@ footer {
 }
 
 @media screen and (max-width: 700px) {
-  /*.topnav a:not(.active) {display: none;}*/
-  .navlink.responsive:not(.active) {display: none;}
+  .topnav a:not(.active) {display: none;}
   .topnav a.icon {
     color: #fff;
     display: block;
     float: right;
   }
-  /*.topnav.active a.icon {
+  .topnav.active a.icon {
     color: #000;
-  }*/
-  /*.topnav.responsive {
-    position: relative;
-  }*/
-  .responsive {
+  }
+  .topnav.responsive {
     position: relative;
   }
-  /*.topnav.responsive .icon {
-    background-color: black;
-    color: white;
-    position: absolute;
-    right: 0;
-    top: 0;
-  }*/
-  .icon {
+  .topnav.responsive .icon {
     background-color: black;
     color: white;
     position: absolute;
     right: 0;
     top: 0;
   }
-  .responsive-link {
+  .topnav.responsive a {
     display: block;
     float: none;
     text-align: left;
   }
-  .navlink-active {
+  .active {
     order: -1;
   }
   .content-section {
