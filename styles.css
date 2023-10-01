@@ -219,7 +219,7 @@ footer {
 }
 .topnav .icon {
   display: none;
-  color: #000;
+  color: #fff;
 }
 
 @media screen and (max-width: 700px) {
@@ -227,7 +227,7 @@ footer {
   .topnav a.icon {
     float: right;
     display: block;
-    color: white;
+    color: #fff;
   }
   /*.topnav.active a.icon {
     color: #000;
@@ -239,7 +239,7 @@ footer {
     position: absolute;
     right: 0;
     top: 0;
-    color: white;
+    color: black;
   }
   .topnav.responsive a {
     float: none;
