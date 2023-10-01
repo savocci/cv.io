@@ -232,10 +232,20 @@ footer {
   /*.topnav.active a.icon {
     color: #000;
   }*/
-  .topnav.responsive {
+  /*.topnav.responsive {
+    position: relative;
+  }*/
+  .responsive {
     position: relative;
   }
-  .topnav.responsive .icon {
+  /*.topnav.responsive .icon {
+    background-color: black;
+    color: white;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }*/
+  .icon {
     background-color: black;
     color: white;
     position: absolute;
