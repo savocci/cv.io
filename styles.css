@@ -252,7 +252,7 @@ footer {
     right: 0;
     top: 0;
   }
-  .topnav.responsive a {
+  .responsive-link {
     display: block;
     float: none;
     text-align: left;
@@ -309,7 +309,7 @@ footer {
     right: 0;
     top: 0;
   }
-  .topnav.responsive a {
+  .responsive-link {
     display: block;
     float: none;
     text-align: left;
