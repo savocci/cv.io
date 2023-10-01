@@ -227,10 +227,10 @@ footer {
   .topnav a.icon {
     float: right;
     display: block;
-    color: #000;
+    color: white;
   }
   .topnav.active a.icon {
-    color: #fff;
+    color: black;
   }
   .topnav.responsive {
     position: relative;
