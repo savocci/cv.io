@@ -76,7 +76,7 @@ html, body {
   width: 300px;
 }
 .content-text {
-  margin-left: 20px;
+  /*margin-left: 20px;*/
   text-align: left;
 }
 .article-text {
