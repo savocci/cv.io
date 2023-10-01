@@ -6,7 +6,9 @@ function myFunction() {
     x.className += " responsive";
 
     for (var i = 0; i < links.length; i++) {
-      links[i].className += " responsive-link";
+      if (!links[i].classList.contains("icon")) {
+        links[i].className += " responsive-link";
+      }
     }
   } else {
     x.className = "topnav";
