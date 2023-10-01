@@ -14,7 +14,7 @@ function myFunction() {
     x.className = "topnav";
 
     for (var i = 0; i < links.length; i++) {
-      links[i].className += "navlink"
+      links[i].className = "navlink"
     }
   }
 }
