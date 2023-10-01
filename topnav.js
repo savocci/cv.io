@@ -12,7 +12,7 @@ function myFunction() {
     x.className = "topnav";
 
     for (var i = 0; i < links.length; i++) {
-      links[i].classList.remove("responsive", "link");
+      links[i].classList.remove("responsive-link");
     }
   }
 }
