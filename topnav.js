@@ -7,7 +7,7 @@ function myFunction() {
 
     for (var i = 0; i < links.length; i++) {
       if (!links[i].classList.contains("icon")) {
-        links[i].className += " responsive-link";
+        links[i].classList.add("responsive-link");
       }
     }
   } else {
