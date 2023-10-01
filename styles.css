@@ -1,21 +1,21 @@
 html, body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
   margin: 0;
   padding: 0;
-  height: 100%;
-  font-family: Arial, Helvetica, sans-serif;
 }
 .topnav {
-  overflow: hidden;
   background-color: #000;
+  overflow: hidden;
 }
 .topnav a {
-  float: left;
-  display: block;
   color: #fff;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+  display: block;
+  float: left;
   font-size: 17px;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
 }
 .topnav a:hover {
   background-color: #ddd;
@@ -26,112 +26,112 @@ html, body {
   color: #000;
 }
 .content-section {
-  flex-grow: 1;
+  align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 30px;
-  margin-bottom: 0;
-  padding-bottom: 20px;
+  flex-grow: 1;
   height: 100%;
+  justify-content: space-between;
+  margin-bottom: 0;
+  margin-top: 30px;
+  padding-bottom: 20px;
 }
 .form-section {
-  flex-grow: 1;
+  align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 30px;
-  margin-bottom: 0;
-  padding-bottom: 20px;
+  flex-grow: 1;
   height: 100%;
+  justify-content: space-between;
+  margin-bottom: 0;
+  margin-top: 30px;
+  padding-bottom: 20px;
   width: 100%;
 }
 .content-center {
-  display: flex;
   align-items: center;
+  display: flex;
   text-align: center;
 }
 .form-center {
-  display: flex;
   align-items: center;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
   text-align: center;
   width: 100%;
-  justify-content: center;
-  padding-bottom: 100px;
 }
 .article-center {
-  display: flex;
   align-items: center;
-  text-align: center;
+  display: flex;
   justify-content: center;
   padding-bottom: 100px;
+  text-align: center;
 }
 .profile-image {
   border-radius: 50% 50%;
-  width: 300px;
   height: auto;
-  margin-right: 40px;
   margin-left: 200px;
+  margin-right: 40px;
+  width: 300px;
 }
 .content-text {
-  text-align: left;
   margin-left: 20px;
+  text-align: left;
 }
 .article-text {
-  text-align: left;
   margin-left: 20px;
+  text-align: left;
 }
 .article-text-special {
-  text-align: left;
   margin-left: 20px;
+  text-align: left;
 }
 .form-text {
-  text-align: left;
   margin-left: 20px;
+  text-align: left;
   width: 30%;
 }
 .page-heading h1 {
-  text-align: center;
   font-size: 44px;
   margin: 0;
   margin-bottom: 10px;
   padding-bottom: 12px;
+  text-align: center;
 }
 ul {
-  text-align: left;
   line-height: 1.2;
+  text-align: left;
 }
 p {
   font-size: 16px;
   text-align: left;
 }
 .job {
-  margin-bottom: 44px;
   line-height: 0.2;
+  margin-bottom: 44px;
 }
 .skill {
-  margin-bottom: 44px;
   line-height: 0.2;
+  margin-bottom: 44px;
 }
 .school {
-  margin-bottom: 44px;
   line-height: 0.2;
+  margin-bottom: 44px;
 }
 .contact-info {
-  margin-bottom: 44px;
   line-height: 0.2;
+  margin-bottom: 44px;
 }
 h2 {
-  text-align: left;
   font-size: 17px;
   padding-bottom: 5px;
+  text-align: left;
 }
 form {
+  /*align-items: left;*/
   display: flex;
   flex-direction: column;
-  /*align-items: left;*/
   text-align: left;
 }
 label {
@@ -146,40 +146,40 @@ textarea {
   resize: none none;
 }
 button {
-  width: 100%;
   background-color: #000000;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
   border: none;
   border-radius: 4px 4px;
+  color: white;
   cursor: pointer;
   font-size: 16px;
+  margin: 8px 0;
+  padding: 14px 20px;
+  width: 100%;
 }
 .linkedin {
   margin-top: 60px;
-  text-align: center;
   padding-bottom: 50px;
+  text-align: center;
 }
 footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 40px;
   background-color: black;
+  bottom: 0;
+  height: 40px;
+  left: 0;
+  position: fixed;
+  width: 100%;
 }
 .container {
-  text-align: center;
   align-items: center;
+  text-align: center;
   width: 70%;
 }
 
 /* Media queries for adjusting margin as the screen size decreases */
 @media screen and (max-width: 1200px) {
   .profile-image {
-    margin-right: 20px;
     margin-left: 150px;
+    margin-right: 20px;
     margin-top: -100px;
   }
   .form-text {
@@ -195,11 +195,11 @@ footer {
 
 @media screen and (max-width: 1000px) {
   .profile-image {
-    width: 170px;
     height: auto;
-    margin-right: 10px;
     margin-left: 100px;
+    margin-right: 10px;
     margin-top: -300px;
+    width: 170px;
   }
   .page-heading {
     width: 100%;
@@ -218,16 +218,16 @@ footer {
   }
 }
 .topnav .icon {
-  display: none;
   color: #fff;
+  display: none;
 }
 
 @media screen and (max-width: 700px) {
   .topnav a:not(.active) {display: none;}
   .topnav a.icon {
-    float: right;
-    display: block;
     color: #fff;
+    display: block;
+    float: right;
   }
   /*.topnav.active a.icon {
     color: #000;
@@ -236,38 +236,38 @@ footer {
     position: relative;
   }
   .topnav.responsive .icon {
+    background-color: black;
+    color: white;
     position: absolute;
     right: 0;
     top: 0;
-    color: white;
-    background-color: black;
   }
   .topnav.responsive a {
-    float: none;
     display: block;
+    float: none;
     text-align: left;
   }
   .active {
     order: -1;
   }
   .content-section {
-    margin-top: 30px;
     margin-bottom: 20px;
+    margin-top: 30px;
     padding: 20px;
   }
   .profile-image {
-    width: 300px;
     height: auto;
-    margin-right: 0;
-    margin-left: 0;
     margin-bottom: 20px;
+    margin-left: 0;
+    margin-right: 0;
     margin-top: inherit;
+    width: 300px;
   }
   .content-center {
-    flex-direction: column;
     align-items: center;
-    text-align: center;
+    flex-direction: column;
     padding-bottom: 70px;
+    text-align: center;
   }
   .content-text {
     text-align: center;
@@ -294,14 +294,14 @@ footer {
     position: relative;
   }
   .topnav.responsive .icon {
+    color: black;
     position: absolute;
     right: 0;
     top: 0;
-    color: black;
   }
   .topnav.responsive a {
-    float: none;
     display: block;
+    float: none;
     text-align: left;
   }
 }*/
