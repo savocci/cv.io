@@ -239,7 +239,8 @@ footer {
     position: absolute;
     right: 0;
     top: 0;
-    color: black;
+    color: white;
+    background-color: black;
   }
   .topnav.responsive a {
     float: none;
