@@ -5,16 +5,16 @@ function myFunction() {
   if (x.className === "topnav") {
     x.className += " responsive";
 
-    /*for (var i = 0; i < links.length; i++) {
+    for (var i = 0; i < links.length; i++) {
       if (!links[i].classList.contains("icon")) {
-        links[i].classList.add("responsive-link");
+        links[i].className += " responsive"
       }
-    }*/
+    }
   } else {
     x.className = "topnav";
 
-    /*for (var i = 0; i < links.length; i++) {
-      links[i].classList.remove("responsive-link");
-    }*/
+    for (var i = 0; i < links.length; i++) {
+      links[i].className += "navlink"
+    }
   }
 }
