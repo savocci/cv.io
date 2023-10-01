@@ -38,7 +38,7 @@ html, body {
   background-color: #fff;
   color: #000;
 }*/
-.active {
+.navlink-active {
   background-color: #fff;
   color: #000;
 }
@@ -245,7 +245,7 @@ footer {
 
 @media screen and (max-width: 700px) {
   /*.topnav a:not(.active) {display: none;}*/
-  .responsive-link:not(.active) {display: none;}
+  .navlink.responsive:not(.active) {display: none;}
   .topnav a.icon {
     color: #fff;
     display: block;
@@ -279,7 +279,7 @@ footer {
     float: none;
     text-align: left;
   }
-  .active {
+  .navlink-active {
     order: -1;
   }
   .content-section {
