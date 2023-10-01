@@ -219,7 +219,7 @@ footer {
 }
 .topnav .icon {
   display: none;
-  color: #fff;
+  color: #000;
 }
 
 @media screen and (max-width: 700px) {
@@ -230,7 +230,7 @@ footer {
     color: white;
   }
   .topnav.active a.icon {
-    color: black;
+    color: #000;
   }
   .topnav.responsive {
     position: relative;
