@@ -229,9 +229,9 @@ footer {
     display: block;
     color: white;
   }
-  .topnav.active a.icon {
+  /*.topnav.active a.icon {
     color: #000;
-  }
+  }*/
   .topnav.responsive {
     position: relative;
   }
