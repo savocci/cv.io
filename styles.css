@@ -26,8 +26,8 @@ html, body {
   color: #000;
 }*/
 .active {
-  background-color: #fff;
-  color: #000;
+  background-color: white;
+  color: black;
 }
 .content-section {
   align-items: center;
