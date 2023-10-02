@@ -1,3 +1,4 @@
+// Modified from W3 Schools tutorial https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
 function myFunction() {
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
