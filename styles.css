@@ -21,13 +21,9 @@ html, body {
   background-color: #ddd;
   color: black;
 }
-/*.topnav a.active {
+.topnav a.active {
   background-color: #fff;
   color: #000;
-}*/
-.active {
-  background-color: white;
-  color: black;
 }
 .content-section {
   align-items: center;
